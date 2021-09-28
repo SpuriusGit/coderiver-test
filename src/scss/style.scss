@@ -1,0 +1,24 @@
+@import "mixins";
+@import "fonts";
+
+@import "first-screen.scss";
+@import "second-screen.scss";
+@import "third-screen.scss";
+@import "fourth-screen.scss";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+}
+.first-screen,
+.second-screen,
+.third-screen,
+.fourth-screen{
+    height: 100vh;
+    width: 100%;
+}
